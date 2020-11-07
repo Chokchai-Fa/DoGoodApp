@@ -38,7 +38,6 @@ Route::post('management/student/edits','StudentController@edit');
 
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 //แสดงผลข้อมูลทั้งหมด

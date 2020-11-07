@@ -42,6 +42,5 @@
   </table>
   <a class="btn btn-success" href="/add/student" role="button">Add</a>
 </div>
-
 </body>
 </html>

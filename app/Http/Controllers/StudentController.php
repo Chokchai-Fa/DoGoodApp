@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Student; //นำโมเดลใช้งาน
 
+
 class StudentController extends Controller
 {
     //
@@ -32,6 +33,15 @@ class StudentController extends Controller
             'count'=>$count
         ]);
     }
+
+
+   /* public function index(){
+        $_student = Student::all(); //แสดงข้อมูลทั้งหมดในตาราง
+        return response()->json([
+            'stdinfo'=>$_student
+        ]);
+    } */
+
 
     public function destroy($id){
         Student::destroy($id);

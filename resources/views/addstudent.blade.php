@@ -1,6 +1,3 @@
-@extends('layouts.app')
-@section('content')
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +32,6 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
-@endsection
 </body>
 </html>
 
